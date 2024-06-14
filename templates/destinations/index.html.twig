@@ -1,0 +1,28 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Destinations index{% endblock %}
+
+{% block body %}
+<div class="container mt-5">
+    <h1 class="mb-4 papa">Nos destinations</h1>
+
+  
+     
+         
+      
+        {% for destination in destinations %}
+            <div class="taille">
+                    <a href="{{ path('app_destinations_show', {'id': destination.id}) }}" class="text-decoration-none destination">
+                        {{ destination.NomDeLaDestination }}
+                    </a>
+                </div>
+        {% else %}
+            
+                <p colspan="2" class="text-center">No records found</p>
+           
+        {% endfor %}
+        
+   
+
+</div>
+{% endblock %}
