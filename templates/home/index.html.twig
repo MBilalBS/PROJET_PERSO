@@ -1,0 +1,41 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Terre et Trésors{% endblock %}
+
+{% block body %}
+<div class="example-wrapper">
+  <nav class="navbar navbar-expand-lg navbar-light ">
+    <div class="container-fluid">
+      <div class="logo">
+      <a class="navbar-brand" href="#">
+        <img src="{{asset('/image/1.png')}}" alt="Logo">
+      </a>
+      </div> 
+      <div class="d-flex ms-auto">
+        <a href="#" class="btn button-quattres">
+          Nous Contactez <i class="bi bi-telephone"></i>
+        </a>
+        <a href="#" class="btn btn-outline-primary me-2 d-flex align-items-center connexion">
+            <i class="bi bi-person-circle me-2 " style="font-size: 1.5rem;"></i>
+            Connexion
+          </a>
+        
+      </div>
+    </div>
+  </nav>
+  <nav class="navbar navbar-expand-lg navbar-light  mt-3">
+    <div class="container-fluid justify-content-around" >
+      <a href="#" class="btn  mx-2 button-quattres">Nos voyages</a>
+      <a href="#" class="btn  mx-2 button-quattres">Nos agences</a>
+      <a href="#" class="btn  mx-2 button-quattres">Nos offres</a>
+      <a href="#" class="btn  mx-2 button-quattres">Nos croisières</a>
+    </div>
+  </nav>
+</div>
+<div class="voyage-boss">
+<div class="voyage">
+    <h1 class="bali">Visitez Bali pendant 7 jours 6 nuits pour seulement 1200 $ par personnes !</h1>
+    <img src="/assets/img/bali.png">
+</div>
+</div>
+{% endblock %}

@@ -1,3 +1,108 @@
-body {
-    background-color: skyblue;
+.ContainerNavbar {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 90%;
+  height: 10vh;
+
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%; /* Assurez-vous que la navbar occupe toute la largeur */
+}
+
+.navbar-buttons {
+  display: flex;
+  align-items: center;
+  background-color: #80d1ff;
+  height: 35px;
+  width: 130px;
+  text-align: center;
+  justify-content: center;
+  border-radius: 15px;
+}
+
+.btn-contact {
+  color: white;
+  text-decoration: none;
+  font-family:sans-serif;
+}
+
+.button-quattre {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.button-quattre .btn {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.button-quattres {
+  background-color: #80d1ff;
+  color: white;
+}
+
+.connexion {
+  margin-left: 15px;
+}
+
+.voyage {
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  /* flex-direction: column; */
+}
+
+.bali {
+  font-size: 20px;
+  color: #80d1ff;
+}
+
+.voyage-boss {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.center {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.button-connect {
+  width: 160px;
+
+}
+
+.logo img{
+display: flex;
+height: 120px;
+
+}
+
+.destination{
+  border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    width: 90px;
+}
+
+.taille{
+  display: flex;
+  border: 1px solid red;
+  justify-content: center;
+  width: 100px;
+  padding: 20px;
+}
+
+.papa{
+  display: flex;
+  justify-content: center;
 }
